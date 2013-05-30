@@ -6,3 +6,6 @@ seq(1, 10, 2)                   # => 1 3 5 7 9
 seq(from=1, to=10, by=2)        # => 1 3 5 7 9
 0:4*2+1                         # => 1 3 5 7 9
 seq(from=1, length=5, by=2)     # => 1 3 5 7 9
+rep(1:3, times=2)               # => 1 2 3 1 2 3
+paste(c("X","Y"), 1:4, sep="")  # => "X1" "Y2" "X3" "Y4"
+paste(c("X","Y"), 1:4, sep="", collapse="")  # => "X1Y2X3Y4"
