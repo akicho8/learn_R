@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # ベクトルから要素を添字で参照 Array#compact
 v <- c(3,NA,4)
 v                               # => 3 NA 4

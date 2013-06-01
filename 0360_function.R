@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # 関数
 f <- function(a,b,c=3,d=4){c(a,b,c,d)}
 f(1,2)                          # => c(1,2,3,4)

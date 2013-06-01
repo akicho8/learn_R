@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 a <- read.csv("sample.csv")
 a
 a$名前 # => alice bob    (名前縦列)
